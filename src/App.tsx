@@ -7,7 +7,7 @@ const App = () => {
     <>
       <Switch>
         <Route path="/" element={<Home />} />
-        <Route path="/rooms/new" element={<NewRoom />}></Route>
+        <Route path="/rooms/new" element={<NewRoom />} />
       </Switch>
     </>
   );
